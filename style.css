@@ -2,54 +2,6 @@
 
 /*Sarina&display=swap,Megrim, Diplomata/Biryani:200 */
 
-.logo{
-  font-family:"Fascinate";
-}
-
-h1, h2, #introDiv strong{
-  font-family:"Bad Script";
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body{
-  color:#1a1100;
-}
-body, .sliderText h3{
-  font-family:"NTR";
-}
-#navigation .logo, #topDivMobile .logo{
-  font-size:3.5em;
-}
-
-h1{
-  font-size:4.3em;
-  font-weight:bold;
-}
-h2{
-  font-size:2.5em;
-}
-
-#services h2{
-  color:#332200;
-}
-#services h3{
-  text-align:left;
-}
-.sliderText h3, #about h3 {
-  font-size:2.1em;
-}
-#about .h3{
-  
-}
-h4{
-  font-size:1.8em;
-}
-#testimonials h4{
-  color:#cc8500;
-}
 
 
 @media screen and (max-width:368px){
@@ -197,6 +149,14 @@ right: 200px;
   border:5px solid white;
 }
 
+body{
+  color:#1a1100;
+}
+body, .sliderText h3{
+  font-family:"NTR";
+}
+
+
 .btn{
   font-size:2em;
   border:1px solid #b37700;
@@ -207,9 +167,6 @@ right: 200px;
 .btn-dark{
   padding: 1%;
   
-}
-.hidden{
-  display:none;
 }
 
 #gallery{
@@ -231,6 +188,54 @@ right: 200px;
 #gallery span:hover{
   text-decoration:underline;
 } 
+
+h1{
+  font-size:4.3em;
+  font-weight:bold;
+}
+
+h1, h2, #introDiv strong{
+  font-family:"Bad Script";
+}
+
+h2{
+  font-size:2.5em;
+}
+
+h4{
+  font-size:1.8em;
+}
+
+.hidden{
+  display:none;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logo{
+  font-family:"Fascinate";
+}
+
+#navigation .logo, #topDivMobile .logo{
+  font-size:3.5em;
+}
+
+#services h2{
+  color:#332200;
+}
+#services h3{
+  text-align:left;
+}
+.sliderText h3, #about h3 {
+  font-size:2.1em;
+}
+
+#testimonials h4{
+  color:#cc8500;
+}
 
 hr{
   border-color:#996600;
