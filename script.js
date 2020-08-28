@@ -14,15 +14,15 @@ $(function() {
             if( bottom_of_window > bottom_of_object ){
                 
                 $(this).animate({'opacity':'1'},800);  }
-        });      
+       });      
     });
   
   
   
-  $(window).scroll(
+$(window).scroll(
   function(){
     
-     $('.slideInBlock').each( function(i){
+   /*  $('.slideInBlock').each( function(i){
             
             var bottom_of_object = $(this).position().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -33,14 +33,13 @@ $(function() {
             if( bottom_of_window > bottom_of_object ){
                 
                 $(this).animate({'width':'100%'},900);
-
               
-                    
             }
-        }); 
+        }); */
     
   });
 });  
+
   
 //Mobile Menu
  $("#mobileMenuButton").click(function(){
@@ -52,8 +51,8 @@ $(function() {
  }); 
   
 //Gallery Click
-$("#hair").show();
-$("#spaStudio").hide();
+$("#hair").hide();
+$("#spaStudio").show();
 $("#nails").hide();
 $("#beauty").hide(); 
   
@@ -160,3 +159,9 @@ $("#left1, #right1").show(); $("#right3, #right2, #left3, #left2").hide();
  
    
 });
+
+/*
+
+ /*
+
+*/
